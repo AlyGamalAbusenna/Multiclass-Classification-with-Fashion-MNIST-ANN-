@@ -20,7 +20,7 @@ Each image is 28x28 pixels in grayscale and belongs to one of the 10 classes.
 ### 2. **Model Architecture**
    - We use a sequential neural network with three fully connected (dense) layers:
      - **Input Layer**: Accepts a 784-dimensional flattened vector.
-     - **Hidden Layers**: Three dense layers with 256, 128, and 64 neurons respectively, each followed by batch normalization and dropout layers to prevent overfitting.
+     - **Hidden Layers**: Three dense layers with 512, 256, 64, and 32 neurons respectively, and batch normalization and dropout layer to prevent overfitting.
      - **Output Layer**: 10 neurons with softmax activation to output probabilities for each class.
    
    - **Regularization Techniques**:
